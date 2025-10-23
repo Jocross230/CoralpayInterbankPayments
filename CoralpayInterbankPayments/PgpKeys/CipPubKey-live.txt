@@ -1,0 +1,29 @@
+https://localhost:44354/api/Transaction/NameEnquiry
+{
+  "destinationInstitutionId": "000966",
+  "accountId": "4275719875"
+}
+
+
+
+https://localhost:44354/api/Transaction/FundTransfer
+{
+"destinationInstitutionId": "000966",
+ "creditAccount": "4275719875",
+ "creditAccountName": "BankA Cust1",
+ "sourceAccountId": "2001223145",
+ "sourceAccountName": "Ify Obi",
+ "narration": "Payment for food",
+ "channel": "WEB",
+ "group": "Corporate",
+ "sector": "Banking",
+ "amount": 5000.00,
+ "isTest": true
+}
+
+
+
+https://localhost:44354/api/Transaction/TransactionEnquiry
+{
+  "sessionId": "000022241203210331576738103064"
+}	
