@@ -3,6 +3,7 @@
     public static class CoralPayResponseCodes
     {
         public const string Success = "00";
+        public const string Ready = "10";
         public const string Pending = "07";
         public const string SystemMalfunction = "96";
         public const string Timeout = "97";
