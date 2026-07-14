@@ -4,7 +4,6 @@ using Microsoft.Net.Http.Headers;
 
 namespace CoralpayInterbankPayments.Service
 {
-
     public class TextPlainInputFormatter : TextInputFormatter
     {
         public TextPlainInputFormatter()
