@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Formatters;
 using System.Text;
 using Microsoft.Net.Http.Headers;
-
 namespace CoralpayInterbankPayments.Service
 {
     public class TextPlainInputFormatter : TextInputFormatter
