@@ -2,7 +2,6 @@
 {
     public static class FileLogger
     {
-        
         private static readonly string logFilePath = @"C:\Logs\ErrorLog.txt";
 
         public static void Log(Exception ex)
